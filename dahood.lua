@@ -14,7 +14,7 @@ coroutine.wrap(function()
                 if game.Players.LocalPlayer.Character.LowerTorso:FindFirstChild("BOOMBOXSOUND") then
                     game.Players.LocalPlayer.Character.LowerTorso:FindFirstChild("BOOMBOXSOUND"):Destroy()
                 end
-                game:GetService("ReplicatedStorage").MainEvent:FireServer("Boombox","694705467")
+                game:GetService("ReplicatedStorage").MainEvent:FireServer("Boombox","6947054675")
                 repeat wait() until game.Players.LocalPlayer.Character.LowerTorso:FindFirstChild("BOOMBOXSOUND")
                 game.Players.LocalPlayer.Character.LowerTorso:FindFirstChild("BOOMBOXSOUND").SoundId=""
             end)
